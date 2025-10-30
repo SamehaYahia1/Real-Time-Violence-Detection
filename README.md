@@ -6,10 +6,10 @@ The backend (this repository) was built using ASP.NET Core and acts as the centr
 
 My main focus areas included:
 
-Designing secure RESTful APIs for authentication, camera management, and alerts
+*   **Real-Time Data Pipeline:** Ingests live video streams and processes them into chunks for AI analysis using RabbitMQ and MinIO.
 
-Integrating Firebase Cloud Messaging (FCM) for real-time push notifications
+*   **Real-Time Notifications:** Instantly notifies users when a violent incident is identified.
+*   **Microservice Architecture:** Uses separate containerized services for easier updates and scalable deployment.   
 
-Managing user subscriptions and roles
 
 Handling camera streaming endpoints and coordinating with AI detection results
