@@ -40,6 +40,36 @@ Includes the **Python-based containerized AI services** responsible for video pr
 ### 📱 3. Mobile Application — [`Real-Time-Violence-Detection-App`](https://github.com/SamehaYahia1/Real-Time-Violence-Detection-App)
 A **Flutter-based client application** that allows users to log in, manage their cameras, view live streams, and receive instant alerts when violent actions are detected.
 
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+*   Docker and Docker Compose
+*   .NET 8 SDK
+*   Python 3.10
+
+### Installation & Launch
+
+1.  **Clone Both Repositories:** The system requires both the API and the AI services. It is recommended to clone them into the same parent directory.
+    ```sh
+    # Clone the Backend API (this repo)
+    git clone https://github.com/SamehaYahia1/Real-Time-Violence-Detection.git
+
+    # Clone the AI Microservices
+    git clone https://github.com/SamehaYahia1/VdectDockerContainers.git
+    ```
+2.  **Configure Environment Variables:**
+    *   Navigate into the `Real-Time-Violence-Detection` directory.
+    *   Create a `.env` file by copying the provided `.env.example` file.
+    *   Update the variables in the new `.env` file with your local configuration.
+3.  **Launch the System with Docker Compose:**
+    *   From the root of the `Real-Time-Violence-Detection-API` directory (where the `docker-compose.yml` file is located):
+    ```sh
+    docker-compose up --build
+    ```
+---
 
 
 
