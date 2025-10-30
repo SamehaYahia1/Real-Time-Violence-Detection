@@ -9,7 +9,8 @@ My main focus areas included:
 *   **Real-Time Data Pipeline:** Ingests live video streams and processes them into chunks for AI analysis using RabbitMQ and MinIO.
 
 *   **Real-Time Notifications:** Instantly notifies users when a violent incident is identified.
-*   **Microservice Architecture:** Uses separate containerized services for easier updates and scalable deployment.   
+*   **Microservice Architecture:** Uses separate containerized services for easier updates and scalable deployment.
+*   **Camera Stream Coordination**: Handles camera streaming endpoints and synchronizes detected events from the AI services in real time.
 
 
-Handling camera streaming endpoints and coordinating with AI detection results
+
