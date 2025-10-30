@@ -31,7 +31,7 @@ My main focus areas included:
 This system is divided into **three main repositories**, each responsible for a specific part of the real-time violence detection workflow.  
 All three should be set up to run the complete system properly.
 
-### 🧱 1. Backend API — [`Real-Time-Violence-Detection-Backend`](https://github.com/SamehaYahia1/Real-Time-Violence-Detection-Backend)
+### 🧱 1. Backend API — [`Real-Time-Violence-Detection-Backend`](https://github.com/SamehaYahia1/Real-Time-Violence-Detection)
 Contains the **ASP.NET Core API**, handling authentication, user subscriptions, camera management, notifications, and communication with the AI microservices.
 
 ### 🤖 2. AI Microservices — [`Violence-Detection-AI-Services`](https://github.com/SamehaYahia1/Violence-Detection-AI-Services)
