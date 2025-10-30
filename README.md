@@ -34,7 +34,7 @@ All three should be set up to run the complete system properly.
 ### 🧱 1. Backend API — [`Real-Time-Violence-Detection-Backend`](https://github.com/SamehaYahia1/Real-Time-Violence-Detection)
 Contains the **ASP.NET Core API**, handling authentication, user subscriptions, camera management, notifications, and communication with the AI microservices.
 
-### 🤖 2. AI Microservices — [`Violence-Detection-AI-Services`](https://github.com/SamehaYahia1/Violence-Detection-AI-Services)
+### 🤖 2. AI Microservices — [`Violence-Detection-AI-Services`](https://github.com/SamehaYahia1/Real-Time-Violence-Detection-Microservices)
 Includes the **Python-based containerized AI services** responsible for video processing and real-time violence detection. These services interact with the backend through REST and message queues.
 
 ### 📱 3. Mobile Application — [`Real-Time-Violence-Detection-App`](https://github.com/SamehaYahia1/Real-Time-Violence-Detection-App)
